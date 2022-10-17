@@ -2,6 +2,11 @@
 #include <stdlib.h>
 #include <time.h>
 
+/**
+ * main - prints a number n 
+ *
+ * Return: returns 0 on completion
+ */
 int main(void)
 {
 int n;
