@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <time.ih>
+#include <time.h>
 
 /* more headers goes there */
 
