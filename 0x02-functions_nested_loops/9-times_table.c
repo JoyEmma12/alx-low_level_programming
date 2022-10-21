@@ -3,7 +3,7 @@
 /**
  * times_table - Prints the 9 times table, starting with 0
  *
- * Return: null
+ * Return: empty output
  */
 void times_table(void)
 {
@@ -14,7 +14,7 @@ for (a = 0; a <= 9; a++)
 for (b = 0; b <= 9; b++)
 {
 c = a * b;
-if (c < 9)
+if (c > 9)
 {
 d = c % 10;
 e = (c - d) / 10;
