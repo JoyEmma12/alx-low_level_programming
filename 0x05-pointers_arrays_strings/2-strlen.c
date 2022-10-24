@@ -14,5 +14,5 @@ for (; *s != '\0'; s++)
 {
 c++;
 }
-return (0);
+return (c);
 }
