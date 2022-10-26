@@ -7,14 +7,11 @@
  */
 int main(void)
 {
-char ch = 'a';
-putchar("Lower case alphabet");
-while (ch <= z)
-{
-putchar("%c", ch);
-ch++;
-}
-putchar("\n");
+	char c;
 
-return (0);
+	for (c = 'a'; c <= 'z'; c++)
+	putchar(c);
+
+	putchar('\n');
+	return (0);
 }
