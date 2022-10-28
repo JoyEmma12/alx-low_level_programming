@@ -11,7 +11,7 @@ char *cap_string(char *s)
 {
 	int x = 0, i;
 	int caps = 13;
-	char spc[] = {32, '\t', '\n', 44, 46, ';', '!', '"', '(', ')', ',', '{', '}'};
+	char spc[] = {32, '\t', '\n', ',', '.', '?', '"', '(', ')', '{', '}'};
 
 	while (s[x])
 	{
@@ -19,7 +19,7 @@ char *cap_string(char *s)
 
 		while (i < caps)
 		{
-			if ((x == 0 || s[x - 1] == spc[i]) && (s[x] >= 97 && s[x] <= 122))
+		 if ((x == 0 || s[x - 1] == spc[i]) && (s[x] >= 97 && s[x] <= 122))
 					s[x] -= 32;
 
 					i++;
