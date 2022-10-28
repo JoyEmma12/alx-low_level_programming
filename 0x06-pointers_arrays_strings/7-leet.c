@@ -17,7 +17,7 @@ char *leet(char *s)
 	{
 		y = 0;
 
-		while (y < 1)
+		while (y < a)
 		{
 			if (s[x] == r[y] || s[x] - 32 == r[y])
 			{
