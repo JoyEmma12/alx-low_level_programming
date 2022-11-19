@@ -10,6 +10,7 @@ void print_a_integer(char *separator, va_list args);
 void print_a_float(char *separator, va_list args);
 void print_a_char_ptr(char *separator, va_list args);
 void print_strings(const char *separator, const unsigned int n, ...);
+void print_all(const char * const format, ...);
 
 /**
   * struct format_types - Struct format_types
